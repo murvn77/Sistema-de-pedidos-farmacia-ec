@@ -1,4 +1,4 @@
-package pedidosfarmacia.unir.modelos;
+package pedidosfarmacia.unir.model;
 
 public class Pedido {
     private String nombreMedicamento;
