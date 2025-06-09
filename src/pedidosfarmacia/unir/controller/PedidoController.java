@@ -8,11 +8,15 @@ import javax.swing.*;
 
 public class PedidoController {
 
-    private final FormPedido vista;
+    private FormPedido vista;
 
     public PedidoController(FormPedido vista) {
         this.vista = vista;
         inicializarEventos();
+    }
+    
+    public FormPedido getVista() {
+        return vista;
     }
 
     private void inicializarEventos() {

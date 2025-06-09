@@ -7,7 +7,8 @@ public class Ejecutar {
 
 	public static void main(String[] args) {
             FormPedido vista = new FormPedido();
-            new PedidoController(vista);
-            vista.setVisible(true);
+            PedidoController pedidoController = new PedidoController(vista);
+            pedidoController.getVista().setVisible(true);
+            
     }
 }
