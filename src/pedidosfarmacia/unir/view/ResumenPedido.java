@@ -42,11 +42,13 @@ public class ResumenPedido extends JFrame {
         JButton btnCancelar = new JButton("Cancelar");
         btnCancelar.setBackground(Color.red);
         btnCancelar.setBounds(70, 135, 100, 30);
+        btnCancelar.setForeground(Color.white);
         btnCancelar.addActionListener(e -> dispose());
         contentPane.add(btnCancelar);
 
         JButton btnEnviar = new JButton("Enviar");
-        btnEnviar.setBackground(Color.green);
+        btnEnviar.setBackground(new Color(34, 139, 34));
+        btnEnviar.setForeground(Color.white);
         btnEnviar.setBounds(200, 135, 100, 30);
         btnEnviar.addActionListener(e -> {
             System.out.println("Pedido enviado");

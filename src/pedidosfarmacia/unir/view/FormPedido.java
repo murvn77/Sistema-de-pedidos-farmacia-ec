@@ -111,12 +111,14 @@ public class FormPedido extends JFrame {
         botonBorrar = new JButton("Borrar");
         botonBorrar.setBounds(20, 410, 100, 25);
         botonBorrar.setBackground(Color.red);
+        botonBorrar.setForeground(Color.white);
         botonBorrar.addActionListener(e -> limpiarFormulario());
         contentPane.add(botonBorrar);
         
         botonConfirmar = new JButton("Confirmar");
         botonConfirmar.setBounds(170, 410, 100, 25);
-        botonConfirmar.setBackground(Color.green);
+        botonConfirmar.setBackground(new Color(34, 139, 34));
+        botonConfirmar.setForeground(Color.white);
         contentPane.add(botonConfirmar);
     }
 
