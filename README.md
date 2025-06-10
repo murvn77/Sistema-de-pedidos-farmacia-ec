@@ -29,5 +29,3 @@ Se aplicó el patrón **Modelo-Vista-Controlador (MVC)**:
 - **Compilación configurada para:**
   - `source = 21`
   - `targetPlatform = 21`
-  - Depuración activada: líneas, variables y archivos fuente
-  - Características en vista previa: deshabilitadas
