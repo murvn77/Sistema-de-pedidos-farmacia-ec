@@ -5,17 +5,17 @@ public class Pedido {
     private String tipoMedicamento;
     private Integer cantidad;
     private String distribuidor;
-    private String farmacias;
+    private String sucursal;
 
     public Pedido() {
     }
 
-    public Pedido(String nombreMedicamento, String tipoMedicamento, Integer cantidad, String distribuidor, String farmacias) {
+    public Pedido(String nombreMedicamento, String tipoMedicamento, Integer cantidad, String distribuidor, String sucursal) {
         this.nombreMedicamento = nombreMedicamento;
         this.tipoMedicamento = tipoMedicamento;
         this.cantidad = cantidad;
         this.distribuidor = distribuidor;
-        this.farmacias = farmacias;
+        this.sucursal = sucursal;
     }
 
     public String getNombreMedicamento() {
@@ -50,11 +50,11 @@ public class Pedido {
         this.distribuidor = distribuidor;
     }
 
-    public String getFarmacias() {
-        return farmacias;
+    public String getSucursal() {
+        return sucursal;
     }
 
-    public void setFarmacias(String farmacias) {
-        this.farmacias = farmacias;
+    public void setSucursal(String sucursales) {
+        this.sucursal = sucursales;
     }
 }

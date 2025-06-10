@@ -59,7 +59,7 @@ public class PedidoController {
                 tipo,
                 cantidadInt,
                 vista.getDistribuidorSeleccionado(),
-                vista.getFarmaciasSeleccionadas()
+                vista.getSucursalesSeleccionadas()
             );
             
             new ResumenPedido(pedido, vista).setVisible(true);

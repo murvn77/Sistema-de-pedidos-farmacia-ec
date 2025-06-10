@@ -35,7 +35,7 @@ public class ResumenPedido extends JFrame {
         contentPane.add(lblMedicamento);
 
         JLabel lblFarmacia = new JLabel("<html>Para la farmacia situada en: <br>" 
-        + pedido.getFarmacias() + "</html>");
+        + pedido.getSucursal() + "</html>");
         lblFarmacia.setBounds(20, 55, 400, 60);
         contentPane.add(lblFarmacia);
 

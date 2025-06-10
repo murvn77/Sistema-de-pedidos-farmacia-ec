@@ -143,7 +143,7 @@ public class FormPedido extends JFrame {
         return sedePrincipal.isSelected() || sedeSecundaria.isSelected();
     }
 
-    public String getFarmaciasSeleccionadas() {
+    public String getSucursalesSeleccionadas() {
         if (sedePrincipal.isSelected() && sedeSecundaria.isSelected())
             return "Calle de la Rosa n. 28 y Calle Alcazabilla n. 3";
         else if (sedePrincipal.isSelected())
